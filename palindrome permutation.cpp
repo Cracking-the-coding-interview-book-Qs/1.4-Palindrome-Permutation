@@ -3,10 +3,6 @@
 //if even length ki string hai, to sabhi characters ka count even hi aana chaiye and no character should repeat odd no.of times.
 //if odd string hai to only at most koi ek hi character aisa hona chaiye jo odd no of times repeat hora ho.
 
-//Issue
-//TC O(n) hona jiske liye we need to use hashmap but usse SC O(n) ho jaata hai. Mera SC O(1) hai and TC O(nlogn) hai.
-//Time space tradeoff hai ye.
-
 #include<iostream>
 #include<algorithm>  //to use sort()
 #include<cstdlib>   //to use malloc()
